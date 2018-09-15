@@ -23,15 +23,15 @@ author: 'Xu Jiayu'
 nickname: Yu
 bio: 'Arts / Painting / Music drama'
 location: 'Guangxi, China'
-url: 'https://art-collection.cc'
-img_url: 'https://img.art-collection.cc'
+url: ''
+img_url: ''
 image: 'assets/images/cover3.jpg'
 
 short_url: 'art-collection.cc'
 google_analytics: 
 disqus: 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: 
 
 # Permalinks
 # permalink: /:title
