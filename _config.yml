@@ -23,7 +23,7 @@ author: 'Xu Jiayu'
 nickname: Yu
 bio: 'Arts / Painting / Music drama'
 location: 'Guangxi, China'
-url: ''
+url: 'https://art-collection.cc'
 img_url: ''
 image: 'assets/images/cover3.jpg'
 
@@ -53,7 +53,7 @@ sass:
 
 safe: false
 lsi: false
-username: ms
+username: jekyller
 repo: jekyll-blog
 branch: master
 # relative_source: ../jasper/
