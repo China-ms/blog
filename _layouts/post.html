@@ -99,26 +99,26 @@ class: "post-template"
           <span class="hidden">Google+</span>
         </a>
       </section>
-
-      <div id="gitalk-container"></div>
+      <!-- Gitalk 评论 start  -->
+      
+      <!-- Link Gitalk 的支持文件  -->
       <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-      <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-      <script>
-       const gitalk = new Gitalk({
-         clientID: '933a1b3b2bf28af7f393',
-         clientSecret: '980eab056227dd417eaeab2de4cbe055b7cbefdf',
-         repo: 'blog',
-         owner: 'China-ms',
-         admin: ['China-ms'],
-         // labels: ['Gitalk', 'gitment'].concat(["{{ page.tags | join: '","'}}"]),
-         // id: location.origin + location.pathname,
-         id: "{{ page.permalink }}",
-         // facebook-like distraction free mode
-         distractionFreeMode: false
-       });
-
-       gitalk.render('gitalk-container')
-      </script>
+      <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+      <div id="gitalk-container"></div>     <script type="text/javascript">
+          var gitalk = new Gitalk({
+      
+          // gitalk的主要参数
+              clientID: '933a1b3b2bf28af7f393',
+              clientSecret: '980eab056227dd417eaeab2de4cbe055b7cbefdf',
+              repo: 'blog',
+              owner: 'China-ms',
+              admin: ['China-ms'],
+              id: 'page.permalink', 
+      
+          });
+          gitalk.render('gitalk-container');
+      </script> 
+      <!-- Gitalk end -->
 
       <!-- <div id="gitmentContainer"></div>
            <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
