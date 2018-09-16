@@ -11,7 +11,7 @@ kramdown:
 highlighter: none
 paginate: 15
 language: 'en-uk'
-host_url: 'https://art-collection.cc'
+host_url: 'http://art-collection.cc'
 
 # Website info
 name: '艺术工作室'
@@ -23,9 +23,9 @@ author: 'Xu Jiayu'
 nickname: Yu
 bio: 'Arts / Painting / Music drama'
 location: 'Guangxi, China'
-url: 'https://art-collection.cc'
-img_url: 'https://img.art-collection.cc'
-image: 'assets/images/cover3.jpg'
+url: 'http://art-collection.cc'
+img_url: 'http://img.art-collection.cc'
+image: 'assets/images/head.jpg'
 
 short_url: 'art-collection.cc'
 google_analytics: 
